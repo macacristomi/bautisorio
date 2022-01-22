@@ -1,0 +1,383 @@
+html{
+    scroll-behavior:smooth;
+}
+.categorias{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.principal{
+    background-image: url("WhatsApp\ Image\ 2021-12-01\ at\ 16.57.55.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.imagenPrincipal{
+    box-shadow: -2px -2px 20px 0px rgba(5,5,5,0.75);
+    -webkit-box-shadow: -2px -2px 20px 0px rgba(5,5,5,0.75);
+    -moz-box-shadow: -2px -2px 20px 0px rgba(5,5,5,0.75);
+}
+.logo{
+    font-family: 'Indie Flower';
+    font-size: 24px;
+}
+.navBar{
+    width: 100%;
+}
+.titulo{
+    font-family: 'Qwitcher Grypen', cursive;
+    margin: 1% auto;
+    font-size: 6em;
+    text-align: center
+}
+.invitacion{
+    width: 90%;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+
+}
+.invitacion h2{
+    font-size: 2.4em;
+    line-height: 1.5;
+    /* font-family: 'LetsTraceRuledMedium';
+    font-weight: normal;
+    font-style: normal;
+    text-align: center; */
+  
+}
+.compartir{
+    margin: 2% 0px;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+.horario{
+    margin: 2% 0px 0px 0px;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.ubicacion{
+    font-family: 'Indie Flower', cursive;
+    margin: 2% 0px 2% 0px;
+}
+
+.CeremoniaUbicacion{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin: 0px 0px 3% 0px;
+}
+.mensaje{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 1.3em;
+    margin: 3% 0px;
+    width: 90%;
+}
+
+.form{
+    width: 100%;
+    height: 695px;
+}
+
+
+.contacto{
+    /* margin: 2% 0px; */
+    font-size: 18px;
+    font-family: 'Oswald';
+    text-align: center;
+    width: 50%;
+    margin: 2%;
+}
+
+.mensajeConfirmacion{
+    margin: 3% 0px;
+}
+
+.imgBN{
+    display: none;
+}
+
+
+.parallax{
+    background-image: url("manos-bn.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;    
+    /* position: relative; */
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center center;
+    width: 100%;
+}
+
+.regalos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.regalos div{
+    margin: 1%;
+}
+
+
+.imagenFondo{
+    background-image: url("WhatsApp\ Image\ 2022-01-08\ at\ 16.46.09.jpeg");
+    width: 100%;
+    height: 180px;
+}
+
+.cuentaRegresiva{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.cuenta{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 15px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    width: 110px;
+    font-family: 'Indie Flower', cursive;
+    box-shadow: -2px -2px 20px 0px rgba(5,5,5,0.75);
+    -webkit-box-shadow: -2px -2px 20px 0px rgba(5,5,5,0.75);
+    -moz-box-shadow: -2px -2px 20px 0px rgba(5,5,5,0.75);
+}
+
+.asistencia{
+    font-family: 'Oswald', sans-serif;
+    /* margin: 2% 0px 0% 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.botonAsistencia{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fechaLimite{
+    font-size: 16px;
+}
+.asistencia a{
+    margin: 2% 0px;
+}
+
+.asistenciaYContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    background: aliceblue;
+}
+
+.botonRegalo{
+    margin: 0px 0px 3% 0px;
+}
+.num{
+    font-size: 2em;
+}
+
+.letra{
+    font-size: 1.3em;
+}
+.card-img-top{
+    object-fit: contain;
+    height: 40vh;
+}
+
+.botones{
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.botones:hover{
+    background-color: white;
+    color: #007bff;
+    border: 2px solid #007bff;
+    text-decoration: none;
+}
+
+.imagenFooter{
+    box-shadow: -2px -2px 20px 0px rgb(5 5 5 / 75%);
+    -webkit-box-shadow: -2px -2px 20px 0px rgb(5 5 5 / 75%);
+    -moz-box-shadow: -2px -2px 20px 0px rgba(5,5,5,0.75);
+}
+
+.historiaBoton{
+    margin: 3% 0px 3% 0px;
+}
+
+.tituloRegalos{
+    font-family: 'Oswald';
+    margin: 0px 0px 2% 0px;
+    font-size: 2.5em;
+}
+
+.tituloTransferencia{
+    font-family: 'Oswald', sans-serif;
+    margin: 0px 0px 2% 0px;
+    text-align: center;
+}
+
+.contenedorDatos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.contenedorDatos p{
+    margin: 0px;
+}
+
+.agradecimiento{
+    font-family: 'Oswald', sans-serif;
+    margin: 2% 0px 2% 0px;
+}
+
+.tituloHistoria{
+    margin: 2% 0px 2% 0px;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 62px;
+}
+
+.historia{
+    width: 90%;
+    text-align: justify;
+    padding: 30px;
+    background: aliceblue;
+    border-radius: 5px;
+    font-family: 'Indie Flower';
+    font-size: 19px;
+}
+
+.carouselImg{
+    width: 70%;
+}
+
+.carouselImg2{
+    max-height: 900px;
+    margin: 40px 0px;
+    border-radius: 5px;
+    box-shadow: -2px -2px 20px 0px rgb(5 5 5 / 75%);
+    -webkit-box-shadow: -2px -2px 20px 0px rgb(5 5 5 / 75%);
+    -moz-box-shadow: -2px -2px 20px 0px rgba(5,5,5,0.75);
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width:600px){
+    .letra{
+        font-size: 0.9em;
+    }
+    .cuenta{
+        width: 74px;
+        padding: 4px;
+        margin: 0px 10px;
+    }
+    .asistenciaYContacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .asistencia{
+        width: 90%;
+        margin: 10px;
+    }
+    .contacto{
+        width: 90%;
+        margin: 10px;
+    }
+    .card-img-top {
+        object-fit: contain;
+        height: 20vh;
+    }
+    .imagenFooter{
+        width: 90%;
+    }
+    .imagenPrincipal{
+        width: 90%;
+    }
+    .contenedorDatos{
+        flex-direction: column;
+        width: 90%;
+    }
+    .titulo{
+        font-size: 4em;
+    }
+    .invitacion h2{
+        font-size: 1.5em;
+        margin: 10px 0px 20px 0px;
+    }
+    .compartir{
+        font-size: 1.5em;
+        margin: 10px 0px 10px 0px;
+        width: 90%;
+    }
+    .horario{
+        font-size: 2em;
+    }
+    .CeremoniaUbicacion{
+        font-size: 1.5em;
+    }
+    .mensaje{
+        font-size: 1em;
+    }
+    .historia{
+        font-size: 17px;
+    }
+    .contenedorDatos p{
+        font-size: 17px;
+    }
+    .form{
+        width: 120%;
+        height: 695px;
+    }
+    .parallax{
+        display: none;
+    }
+    .imgBN{
+        display: block;
+    }
+
+}
+
+@media (max-width:378px){
+    .cuenta{
+        width: 64px;
+    }
+    .contenedorDatos p{
+        font-size: 17px;
+    }
+}
+@media (max-width:320px){
+    .cuenta{
+        margin: 0px 7px;
+    }
+}
